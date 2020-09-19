@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumXORofTwoNumbersInAnA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBoundedInCircle", "RobotBoundedInCircle\RobotBoundedInCircle.csproj", "{DEB9FBFE-7C14-47FC-A57B-11D62E04B53F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStock", "BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.csproj", "{218A8EE0-2A47-45CC-8811-494C006138DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuyAndSellStock", "BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.csproj", "{218A8EE0-2A47-45CC-8811-494C006138DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialDigits", "SequentialDigits\SequentialDigits.csproj", "{6C6103AC-B645-4E4E-9994-6F999F2ADBD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{218A8EE0-2A47-45CC-8811-494C006138DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{218A8EE0-2A47-45CC-8811-494C006138DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{218A8EE0-2A47-45CC-8811-494C006138DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6103AC-B645-4E4E-9994-6F999F2ADBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6103AC-B645-4E4E-9994-6F999F2ADBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6103AC-B645-4E4E-9994-6F999F2ADBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6103AC-B645-4E4E-9994-6F999F2ADBD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
