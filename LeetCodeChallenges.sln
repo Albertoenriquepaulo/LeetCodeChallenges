@@ -53,7 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuyAndSellStock",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequentialDigits", "SequentialDigits\SequentialDigits.csproj", "{6C6103AC-B645-4E4E-9994-6F999F2ADBD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniquePathsIII", "UniquePathsIII\UniquePathsIII.csproj", "{BE7D923B-CBDB-45E7-BB31-37089709D4AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniquePathsIII", "UniquePathsIII\UniquePathsIII.csproj", "{BE7D923B-CBDB-45E7-BB31-37089709D4AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPooling", "CarPooling\CarPooling.csproj", "{838F37A7-46C5-4669-ABC6-548F416BF4AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajorityElementII", "MajorityElementII\MajorityElementII.csproj", "{6CDE1579-8FB9-4FA8-BFCF-D27556EAC5BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,14 @@ Global
 		{BE7D923B-CBDB-45E7-BB31-37089709D4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE7D923B-CBDB-45E7-BB31-37089709D4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE7D923B-CBDB-45E7-BB31-37089709D4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838F37A7-46C5-4669-ABC6-548F416BF4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838F37A7-46C5-4669-ABC6-548F416BF4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838F37A7-46C5-4669-ABC6-548F416BF4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838F37A7-46C5-4669-ABC6-548F416BF4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDE1579-8FB9-4FA8-BFCF-D27556EAC5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDE1579-8FB9-4FA8-BFCF-D27556EAC5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDE1579-8FB9-4FA8-BFCF-D27556EAC5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDE1579-8FB9-4FA8-BFCF-D27556EAC5BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
