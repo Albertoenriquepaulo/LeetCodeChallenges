@@ -12,7 +12,6 @@ namespace WordBreak
             string s = "applepenapple";
             List<string> wordDict = new List<string>() { "apple", "pen" };
             bool result = sol.WordBreak(s, wordDict);
-            result = sol.WordBreak1(s, wordDict);
 
             s = "catsandog";
             wordDict = new List<string>() { "cats", "dog", "sand", "and", "cat" };
@@ -24,16 +23,6 @@ namespace WordBreak
     public class Solution
     {
         public bool WordBreak(string s, IList<string> wordDict)
-        {
-            foreach (string item in wordDict)
-            {
-                int times = Regex.Matches(s, item).Count;
-                s = s.Replace(item, string.Empty);
-            }
-
-            return string.IsNullOrEmpty(s);
-        }
-        public bool WordBreak1(string s, IList<string> wordDict)
         {
             int length = s.Length;
             bool[] booleanArray = new bool[length + 1];
@@ -56,13 +45,6 @@ namespace WordBreak
                 }
             }
             return booleanArray[length];
-        }
-
-        public string MySubstring(string s, string start, string end)
-        {
-            int startI = s.IndexOf(start);
-            int endI = s.IndexOf(end, startI);
-            return s.Substring(startI, endI - startI + 1);
         }
     }
 }
