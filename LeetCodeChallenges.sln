@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubarrayProductLessThanK", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordBreak", "WordBreak\WordBreak.csproj", "{A767C091-FEE2-4462-B111-CAF2539BF0F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstMissingPositive", "FirstMissingPositive\FirstMissingPositive.csproj", "{864C3267-B2FA-4889-A733-D8DADA038F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstMissingPositive", "FirstMissingPositive\FirstMissingPositive.csproj", "{864C3267-B2FA-4889-A733-D8DADA038F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostCommonWord", "MostCommonWord\MostCommonWord.csproj", "{4983E59A-512F-4B33-A572-C90AC170B169}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{864C3267-B2FA-4889-A733-D8DADA038F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{864C3267-B2FA-4889-A733-D8DADA038F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{864C3267-B2FA-4889-A733-D8DADA038F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4983E59A-512F-4B33-A572-C90AC170B169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4983E59A-512F-4B33-A572-C90AC170B169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4983E59A-512F-4B33-A572-C90AC170B169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4983E59A-512F-4B33-A572-C90AC170B169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
